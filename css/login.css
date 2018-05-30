@@ -1,0 +1,121 @@
+/* 
+* @Author: yangyongkang
+* @Date:   2018-05-28 07:49:29
+* @Last Modified by:   yangyongkang
+* @Last Modified time: 2018-05-30 16:08:06
+*/
+body{
+     background:#85D2C5;
+}
+.logo{
+     width:6.3rem;
+     height:2.275rem;
+     margin-top:3.675rem;
+     margin-left:auto;
+     margin-right:auto;
+}
+ .login{
+     width:11.25rem;
+     height:3.5rem;
+     position:relative;
+     margin-top:2.8rem;
+     margin-left:auto;
+     margin-right:auto;
+}
+ .login p{
+     position:absolute;
+     height:0.75rem;
+     line-height:0.75rem;
+     width:100%;
+     font-size:0.75rem;
+     color:#507E76;
+}
+ .login .p_top{
+     top:0;
+}
+ .login .p_bottom{
+     bottom:0;
+}
+ .login p input{
+     color:#507E76;
+     font-size:0.75rem;
+     height:0.75rem;
+     line-height:0.75rem;
+     display:inline-block;
+     float:left;
+     text-indent:1rem;
+}
+ .login p i{
+     float:left;
+     color:#fff;
+}
+.login_button{
+     height:1.85rem;
+     width:100%;
+     text-align:center;
+     margin-top:2.2rem;
+}
+ .login_button input{
+     width:8.4rem;
+     height:1.75rem;
+     background:#705D76;
+     border-radius:0.075rem;
+     box-shadow:0rem 0.1rem 0rem #5C4D61;
+     font-size:0.7rem;
+     line-height:1.75rem;
+     color:#FFf;
+}
+
+ .login_forget{
+     height:0.65rem;
+     line-height:0.65rem;
+     width:100%;
+     text-align:center;
+     margin-top:0.95rem;
+}
+ .login_forget a{
+     font-size:0.65rem;
+     line-height:0.65rem;
+     color:#fff;
+}
+footer{
+     height:5rem;
+     width:100%;
+     background:#80CABD;
+     position:fixed;
+     bottom:0;
+}
+ footer .facebook{
+     width:8.3rem;
+     height:1.65rem;
+     border:2px solid #fff;
+     margin:1.05rem auto 0.75rem auto;
+     border-radius:0.075rem;
+}
+ footer .facebook .f_p{
+     height:1.65rem;
+     line-height:1.65rem;
+     text-align:center;
+}
+ footer .facebook .f_p i{
+     font-size:0.75rem;
+     color:#fff;
+     vertical-align:middle;
+}
+ footer .facebook .f_p .f_a{
+     font-size:0.625rem;
+     color:#fff;
+     margin-left:0.675rem;
+}
+footer .footer_p{
+     height:0.65rem;
+     line-height:0.65rem;
+     text-align:center;
+     width:100%;
+}
+ footer .footer_p a{
+     font-size:0.65rem;
+     line-height:0.65rem;
+     color:#fff;
+     text-decoration:underline;
+}

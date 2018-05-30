@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Freebee</title>
+        <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <script>
+        	
+    window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		//找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+		//如果屏幕宽度大于640 
+		//就用 640/16=40
+		//小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		//最大网页尺寸640 
+		//最大字体（根字体大小） 40
+    }
+
+        </script>
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/feed.css">
+        <link rel="stylesheet" href="font/iconfont.css">
+    </head>
+    <body>
+         <header>
+         	<div class="header_top">
+         		<div class="nav fl">
+         			<i class="nav_i"><span class="news">5</span></i>
+         			<div class="nav_open">
+         				  <p class="d_search">
+         				   <a class="iconfont fl" href="">&#xe60d;</a><input type="text" placeholder="search">
+         				  </p>
+         				  <div class="info">
+         				  <ul class="info_banner">
+         				  <li class="li_hov">
+         				  	 <div class="header_img">
+         				  	      <img src="img/head3.png" alt="">
+         				  	  </div>
+         				  	  <p class="name">Carmen Electra</p>
+         				  	  <p class="place"><i class="iconfont" style="color:#85D2C5;">&#xe70b;</i>Los Angeles, CA</p>
+         				  </li>
+         				  <li>
+         				  	 <div class="header_img">
+         				  	      <img src="img/head2.png" alt="">
+         				  	  </div>
+         				  	  <p class="name">Carmen Electra2</p>
+         				  	  <p class="place"><i class="iconfont" style="color:#85D2C5;">&#xe70b;</i>Los Angeles, CA2</p>
+         				  </li>
+         				   
+         				  </ul>
+         				  <p class="buttons"><span class="s_hov"></span><span></span></p>
+         				  </div>
+         			</div>
+         		</div>
+         		
+         		<img class="logo" src="img/logo.png" alt="">
+         	</div>
+         	<div class="header_bottom">
+         		<div class="head_img fl">
+         			<img src="img/head1.png" alt="">
+         		</div>
+         		<div class="fr">
+         		<p class="h_p1"><span>Jesica Alba</span></p>
+         		<p class="h_p2"><span class="map_s fl"><i class="iconfont">&#xe680;</i>Los Angeles,CA</span><span class="time_s fr"><i class="iconfont">&#xe65d;</i>2m</span></p>
+         		</div>
+         	</div>
+         </header>
+
+         <section class="gwidth">
+         	<div class="sec_left fl">
+         		<div class="head_news">
+         			<div class="head_img fl">
+         				<img src="img/head2.png" alt="">
+         			</div>
+         			<div class="head_txt fr">
+         				<p>Shawn Corey Carter</p>
+         				<p><span><i class="iconfont">&#xe680;</i>Brooklyn,NY</span></p>
+
+         			</div>
+         		</div>
+         	</div>
+
+         	<div class="sec_right fr">
+         		<ul>
+         			<li><a href=""><img src="img/heart.png" alt=""></a></li>
+         			<li><a href=""><img src="img/message.png" alt=""></a></li>
+         			<li><a href=""><img src="img/return.png" alt=""></a></li>
+         			<li><a href=""><img src="img/omit.png" alt=""></a></li>
+         		</ul>
+         	</div>
+         </section>
+         <footer>
+         	<div class="footer_box gwidth">
+         		
+         	</div>
+         	<div class="footer_nav ">
+         		<ul>
+         			<li><a href="" class="iconfont">&#xe6fe;</a></li>
+         			<li><a href="" class="iconfont">&#xe610;</a></li>
+         			<li><a href="" class="iconfont">&#xe710;</a></li>
+         			<li><a href="" class="iconfont">&#xe747;</a></li>
+         			<li><a href="" class="iconfont">&#xe722;</a></li>
+         		</ul>
+         	</div>
+         </footer>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1">
+        <title>
+        	登录页面
+        </title>
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="font/iconfont.css">
+          <script>
+        	window.onload=window.onresize=function(){
+        		var view_width=document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+        		var _html=document.getElementsByTagName('html')[0];
+        		view_width>640?_html.style.fontSize=640/16+'px':_html.style.fontSize=view_width/16+'px';
+        	}
+        </script>
+    </head>
+    <body>
+    	<div class="logo">
+    		<img src="img/logo.png" alt="">
+    	</div>
+    	<div class="login">
+    	    <p class="p_top"><i class="iconfont">&#xe6eb;</i><input type="text" placeholder="E-mail address"></p>
+    	    <p class="p_bottom"><i class="iconfont">&#xe69f;</i><input id="password" type="password" placeholder="········"></p>
+    	</div>
+        <div class="login_button">
+        	<a href="feed.html">
+        	<input type="button" value="Login">
+             </a>
+        </div>
+        <div class="login_forget">
+        	<a href="###">Forget Password?</a>
+        </div>
+        <footer>
+        	<div class="facebook">
+        		 <p class="f_p"><i class="iconfont">&#xe77a;</i><a class="f_a" href="">Login with Facebook</a></p>
+        	</div>
+        	<p class="footer_p">
+        		<a href="###">Sign Up for Freebee</a>
+        	</p>
+        </footer>
+    	<script src="js/jquery.min.js"></script>
+    </body>
+</html>
